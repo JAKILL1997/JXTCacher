@@ -10,10 +10,15 @@
 		521A8A351B929ADB00917347 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 521A8A341B929ADB00917347 /* main.m */; };
 		521A8A381B929ADB00917347 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 521A8A371B929ADB00917347 /* AppDelegate.m */; };
 		521A8A3B1B929ADB00917347 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 521A8A3A1B929ADB00917347 /* ViewController.m */; };
-		521A8A3E1B929ADB00917347 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 521A8A3C1B929ADB00917347 /* Main.storyboard */; };
 		521A8A401B929ADB00917347 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 521A8A3F1B929ADB00917347 /* Images.xcassets */; };
 		521A8A431B929ADB00917347 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 521A8A411B929ADB00917347 /* LaunchScreen.xib */; };
 		521A8A4F1B929ADC00917347 /* JXTCacherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 521A8A4E1B929ADC00917347 /* JXTCacherTests.m */; };
+		521A8A5E1B929C2A00917347 /* JXTCacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 521A8A5B1B929C2A00917347 /* JXTCacher.m */; };
+		521A8A5F1B929C2A00917347 /* NSObject+JKCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 521A8A5D1B929C2A00917347 /* NSObject+JKCoding.m */; };
+		521A8A631B929E3E00917347 /* ViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 521A8A621B929E3E00917347 /* ViewModel.m */; };
+		521A8A651B929EFF00917347 /* CellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 521A8A641B929EFF00917347 /* CellView.xib */; };
+		521A8A681B92A32400917347 /* CellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 521A8A671B92A32400917347 /* CellView.m */; };
+		521A8A6C1B92BAB300917347 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 521A8A6B1B92BAB300917347 /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +39,22 @@
 		521A8A371B929ADB00917347 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		521A8A391B929ADB00917347 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		521A8A3A1B929ADB00917347 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		521A8A3D1B929ADB00917347 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		521A8A3F1B929ADB00917347 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		521A8A421B929ADB00917347 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		521A8A481B929ADC00917347 /* JXTCacherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JXTCacherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		521A8A4D1B929ADC00917347 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		521A8A4E1B929ADC00917347 /* JXTCacherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXTCacherTests.m; sourceTree = "<group>"; };
+		521A8A591B929C2A00917347 /* JKCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JKCoding.h; path = Cacher/JKCoding.h; sourceTree = "<group>"; };
+		521A8A5A1B929C2A00917347 /* JXTCacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JXTCacher.h; path = Cacher/JXTCacher.h; sourceTree = "<group>"; };
+		521A8A5B1B929C2A00917347 /* JXTCacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JXTCacher.m; path = Cacher/JXTCacher.m; sourceTree = "<group>"; };
+		521A8A5C1B929C2A00917347 /* NSObject+JKCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+JKCoding.h"; path = "Cacher/NSObject+JKCoding.h"; sourceTree = "<group>"; };
+		521A8A5D1B929C2A00917347 /* NSObject+JKCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+JKCoding.m"; path = "Cacher/NSObject+JKCoding.m"; sourceTree = "<group>"; };
+		521A8A611B929E3E00917347 /* ViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewModel.h; sourceTree = "<group>"; };
+		521A8A621B929E3E00917347 /* ViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewModel.m; sourceTree = "<group>"; };
+		521A8A641B929EFF00917347 /* CellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellView.xib; sourceTree = "<group>"; };
+		521A8A661B92A32400917347 /* CellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellView.h; sourceTree = "<group>"; };
+		521A8A671B92A32400917347 /* CellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellView.m; sourceTree = "<group>"; };
+		521A8A6B1B92BAB300917347 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +96,16 @@
 		521A8A311B929ADB00917347 /* JXTCacher */ = {
 			isa = PBXGroup;
 			children = (
+				521A8A601B929E2300917347 /* Model */,
+				521A8A581B929C1600917347 /* Cacher */,
 				521A8A361B929ADB00917347 /* AppDelegate.h */,
 				521A8A371B929ADB00917347 /* AppDelegate.m */,
+				521A8A641B929EFF00917347 /* CellView.xib */,
+				521A8A661B92A32400917347 /* CellView.h */,
+				521A8A671B92A32400917347 /* CellView.m */,
+				521A8A6B1B92BAB300917347 /* ViewController.xib */,
 				521A8A391B929ADB00917347 /* ViewController.h */,
 				521A8A3A1B929ADB00917347 /* ViewController.m */,
-				521A8A3C1B929ADB00917347 /* Main.storyboard */,
 				521A8A3F1B929ADB00917347 /* Images.xcassets */,
 				521A8A411B929ADB00917347 /* LaunchScreen.xib */,
 				521A8A321B929ADB00917347 /* Supporting Files */,
@@ -117,6 +137,27 @@
 				521A8A4D1B929ADC00917347 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		521A8A581B929C1600917347 /* Cacher */ = {
+			isa = PBXGroup;
+			children = (
+				521A8A591B929C2A00917347 /* JKCoding.h */,
+				521A8A5A1B929C2A00917347 /* JXTCacher.h */,
+				521A8A5B1B929C2A00917347 /* JXTCacher.m */,
+				521A8A5C1B929C2A00917347 /* NSObject+JKCoding.h */,
+				521A8A5D1B929C2A00917347 /* NSObject+JKCoding.m */,
+			);
+			name = Cacher;
+			sourceTree = "<group>";
+		};
+		521A8A601B929E2300917347 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				521A8A611B929E3E00917347 /* ViewModel.h */,
+				521A8A621B929E3E00917347 /* ViewModel.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,7 +240,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				521A8A3E1B929ADB00917347 /* Main.storyboard in Resources */,
+				521A8A6C1B92BAB300917347 /* ViewController.xib in Resources */,
+				521A8A651B929EFF00917347 /* CellView.xib in Resources */,
 				521A8A431B929ADB00917347 /* LaunchScreen.xib in Resources */,
 				521A8A401B929ADB00917347 /* Images.xcassets in Resources */,
 			);
@@ -219,9 +261,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				521A8A631B929E3E00917347 /* ViewModel.m in Sources */,
 				521A8A3B1B929ADB00917347 /* ViewController.m in Sources */,
 				521A8A381B929ADB00917347 /* AppDelegate.m in Sources */,
+				521A8A5E1B929C2A00917347 /* JXTCacher.m in Sources */,
 				521A8A351B929ADB00917347 /* main.m in Sources */,
+				521A8A5F1B929C2A00917347 /* NSObject+JKCoding.m in Sources */,
+				521A8A681B92A32400917347 /* CellView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +290,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		521A8A3C1B929ADB00917347 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				521A8A3D1B929ADB00917347 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		521A8A411B929ADB00917347 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -416,6 +454,7 @@
 				521A8A541B929ADC00917347 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		521A8A551B929ADC00917347 /* Build configuration list for PBXNativeTarget "JXTCacherTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +463,7 @@
 				521A8A571B929ADC00917347 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

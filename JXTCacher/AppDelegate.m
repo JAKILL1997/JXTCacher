@@ -7,6 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+
+#define SCREEN_WIDTH    [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT   [UIScreen mainScreen].bounds.size.height
+
 
 @interface AppDelegate ()
 
@@ -16,6 +21,12 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    self.window = [[UIWindow alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT)];
+    [self.window makeKeyAndVisible];
+
+    ViewController *vc = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
+        self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:vc];
     // Override point for customization after application launch.
     return YES;
 }
